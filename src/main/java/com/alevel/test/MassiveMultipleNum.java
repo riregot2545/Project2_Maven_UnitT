@@ -12,7 +12,8 @@ public class MassiveMultipleNum {
         for (int value :
                 massive) {
             if (value % number == 0){
-                buffer[++bufferIndex] = value;
+                buffer[bufferIndex] = value;
+                bufferIndex++;
             }
         }
         int [] result = new int[bufferIndex];

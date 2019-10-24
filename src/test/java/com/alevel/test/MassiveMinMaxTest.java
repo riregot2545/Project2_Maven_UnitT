@@ -11,11 +11,11 @@ public class MassiveMinMaxTest {
 
     @Test
     public void min() {
-        Assert.assertEquals(MassiveMinMax.min(testMassive),1);
+        Assert.assertEquals(1,MassiveMinMax.min(testMassive));
     }
 
     @Test
     public void max() {
-        Assert.assertEquals(MassiveMinMax.max(testMassive),24);
+        Assert.assertEquals(24,MassiveMinMax.max(testMassive));
     }
 }

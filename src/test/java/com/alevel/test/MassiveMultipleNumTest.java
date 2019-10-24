@@ -13,7 +13,7 @@ public class MassiveMultipleNumTest {
     @Test
     public void multipleNumber(){
         int [] multiple3Massive = new int[]{3,6,24,6,21};
-        Assert.assertArrayEquals(MassiveMultipleNum.multipleNumber(testMassive,3),multiple3Massive);
+        Assert.assertArrayEquals(multiple3Massive,MassiveMultipleNum.multipleNumber(testMassive,number));
     }
 
 }
