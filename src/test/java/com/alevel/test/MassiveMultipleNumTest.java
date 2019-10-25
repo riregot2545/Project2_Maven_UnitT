@@ -15,7 +15,7 @@ public class MassiveMultipleNumTest {
         int [] multiple3Massive = new int[]{3,6,24,6,21};
         Assert.assertArrayEquals(multiple3Massive,MassiveMultipleNum.multipleNumber(testMassive1,numberForMass1));
 
-        int [] multiple5Massive = new int[]{95,5,35,65,45,55,15};
+        int [] multiple5Massive = new int[]{70,95,5,35,65,45,55,15};
         Assert.assertArrayEquals(multiple5Massive,MassiveMultipleNum.multipleNumber(testMassive2,numberForMass2));
     }
 
